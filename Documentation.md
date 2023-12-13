@@ -154,3 +154,35 @@ Returns the trained model: Allows further use for dream interpretation.
 
 **3. User Input Handling:**
 The get_user_input function displays a prompt and captures the user's input as their dream description. Additionally, it allows the user to exit the conversation by typing "exit".
+
+
+**4. Dream Classification:**
+
+The classify_dream function takes the trained model and a user's dream description as input and performs the following tasks:
+
+Extracts keywords: Utilizes the CountVectorizer from the trained model to identify relevant keywords from the dream description.
+Predicts keyword meanings: Applies the trained model to predict the meaning associated with each extracted keyword.
+Summarizes dream interpretation: Combines all the predicted keyword meanings to create a concise summary of the dream's potential interpretation.
+Returns keywords and summary: Provides both the extracted keywords and the generated summary for further processing and user interaction.
+
+
+**5. Main Function:**
+
+The main function serves as the entry point for the chatbot and manages the overall conversation flow:
+
+Welcomes the user: Introduces the chatbot and its purpose in a playful and engaging tone.
+Loads and trains the model: Utilizes the functions defined earlier to prepare the model for dream analysis.
+Enters a loop: Initiates an interactive conversation with the user.
+
+Captures user input: Repeatedly prompts the user for dream descriptions until they choose to exit.
+Classifies dreams: Analyzes each dream description using the trained model and generates interpretations.
+Presents interpretations: Displays the extracted keywords and a summary of the dream's meaning in a quirky and informative manner.
+
+
+Provides feedback: Responds to situations where no specific themes are identified in the dream description, encouraging the user to provide more details for a more accurate interpretation.
+
+
+Exits gracefully: Acknowledges the user's choice to exit and bids farewell with a positive and whimsical message.
+This code demonstrates a rule-based implementation of a dream analysis chatbot using Python libraries and machine learning techniques. 
+
+It provides a foundation for further development and exploration of more sophisticated dream interpretation systems.

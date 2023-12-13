@@ -16,7 +16,7 @@ truths about ourselves. Dream analysis has been practiced for centuries, but the
 natural  language processing (NLP) presents an exciting opportunity to develop automated systems capable of interpreting dreams. This research proposal explores the design of a conversational dream analysis chatbot that leverages advanced NLP techniques to provide users with insightful and nuanced interpretations.
 
 
-**1. Introduction:**
+**Introduction:**
 
     Dreams are complex and often elusive experiences, their meanings open to diverse interpretations. Traditional dream analysis methods often rely on subjective interpretations by experts or standardized dream dictionaries, which may not capture the unique context and individual significance of a specific dream. This research aims to address these limitations by developing a conversational dream analysis chatbot that utilizes advanced NLP techniques to provide users with personalized and accurate interpretations.
 

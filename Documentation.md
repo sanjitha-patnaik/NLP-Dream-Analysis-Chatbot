@@ -73,7 +73,8 @@ Combining user feedback with machine learning algorithms allows for continuous i
 
 
 
-
+\n
+\n
 
 
 **OUR RULE-BASED APPROACH:**

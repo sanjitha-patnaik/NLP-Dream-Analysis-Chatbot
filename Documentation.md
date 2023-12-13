@@ -127,3 +127,28 @@ Conversational dream analysis through user input and machine learning
 Playful and engaging user experience
 Focus on interpreting specific keywords and associated meanings
 
+
+**COMPLETE CODE EXPLANATION**
+
+**1. Importing Libraries:**
+The code imports necessary libraries for data manipulation, model building, and user interaction:
+
+pandas: Used for loading and manipulating data from CSV files.
+train_test_split: Used to split the dataset into training and testing sets.
+CountVectorizer: Used to convert text data into a numerical representation suitable for machine learning models.
+MultinomialNB: Used to implement the Multinomial Naive Bayes classifier for text classification.
+make_pipeline: Used to create a pipeline to efficiently combine text processing and model training.
+
+
+**2. Training the Text Classification Model:**
+The train_text_classification_model function performs the following steps:
+
+Loads the dataset: Reads the data from a CSV file, assuming it has "Dream" and "Meaning" columns.
+Splits the data: Separates the data into training and testing sets using 80% and 20% of the data, respectively.
+Builds the model: Creates a pipeline consisting of a CountVectorizer and a Multinomial Naive Bayes classifier.
+Trains the model: Fits the model on the training data to learn the relationship between words and dream meanings.
+Returns the trained model: Allows further use for dream interpretation.
+
+
+**3. User Input Handling:**
+The get_user_input function displays a prompt and captures the user's input as their dream description. Additionally, it allows the user to exit the conversation by typing "exit".

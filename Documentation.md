@@ -72,11 +72,6 @@ Combining user feedback with machine learning algorithms allows for continuous i
 
 
 
-
-\n
-\n
-
-
 **OUR RULE-BASED APPROACH:**
 
 **1. Data and Dependencies:**

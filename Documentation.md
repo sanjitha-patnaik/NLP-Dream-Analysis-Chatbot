@@ -28,6 +28,6 @@ with personalized and accurate interpretations.
 
 **Literature Review:**
 
-    Existing research on dream analysis has explored various approaches, from Jungian and Freudian interpretations to cognitive and neurobiological perspectives. However, few studies have focused on the application of NLP in automated dream analysis. A handful of research projects have explored using machine learning algorithms to classify dreams based on specific themes or emotions, but these approaches often lack the depth and nuance required for personalized interpretations.
+Existing research on dream analysis has explored various approaches, from Jungian and Freudian interpretations to cognitive and neurobiological perspectives. However, few studies have focused on the application of NLP in automated dream analysis. A handful of research projects have explored using machine learning algorithms to classify dreams based on specific themes or emotions, but these approaches often lack the depth and nuance required for personalized interpretations.
 
     
